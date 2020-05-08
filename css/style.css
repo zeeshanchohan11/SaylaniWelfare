@@ -1,0 +1,491 @@
+/*/////////// fonts ////////////*/
+
+@import url(../css/fonts.css); 
+
+/*///xxx///// fonts //////xxx///*/
+
+
+/*/////////// Gobal Classes ////////////*/
+
+* { 
+    font-family: OpenSans-Regular;
+    margin: 0px;
+    padding: 0px; 
+}
+
+body{
+    overflow-x: hidden;
+    max-width: 100%;
+    min-width: 200px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*////xxx//// Gobal Classes ////xxx///*/
+
+
+.top_blue {
+    background-color:#316DC3;
+    color: #fff;
+    font-size: 14px;
+    line-height: 10px;
+}
+
+.top_blue .icons {
+    margin: 20px 0px 0px 0px;
+    display: inline-flex;
+    color: #fff;
+    font-size: 14px;
+}
+
+.top_blue .icons a {
+    padding: 0px 12px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.top_blue .icons a:hover {
+    color: whitesmoke;
+    background-color: blue;
+    padding: 5px 10px;
+    transition: ease .5s;
+}
+
+.top_msg {
+    position: relative;
+    top: -10px;
+    left: 300px;
+}
+
+.top_buttons {
+    text-align: right;
+    display: inline;
+    position: relative;
+    top: -20px;
+
+}
+
+.top_buttons ul{
+    list-style-type: none;
+}
+
+.top_buttons ul li {
+    display: inline;
+}
+
+.top_buttons ul li a {
+    text-decoration: none;
+    display: inline;
+    color: #427900;
+    border: 1px solid #427900;
+    padding: 5px 10px;
+    background-color: whitesmoke;
+    font-size: 12px;
+}
+
+.top_buttons ul li a:hover {
+    font-family: OpenSans-bold;
+    color: #427900;
+    transition: ease .4s;
+    padding: 5px 20px;
+    border: 1px solid black;
+}
+
+.nav_bg {
+    background-color: #f7f8fa;
+    height: 70px;
+}
+
+.sizing_container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.logo {
+    padding-top: 8px;
+}
+
+.navigation {
+    display: inline;
+}
+        
+.navigation ul {
+    float: right;
+    list-style-type: none;
+}
+
+.navigation ul li {
+    position: relative;
+    bottom: 45px;
+    display: inline;
+    padding: 5px 5px;
+}
+
+.navigation ul li a {
+    font-family: OpenSans-SemiBold;
+    text-decoration: none;
+    color: #333333;
+    padding: 7px 10px;
+    font-size: 14px;
+}
+
+.navigation ul li a:hover {
+    color: white;
+    background-color:#316DC3;
+    padding: 7px 10px;
+    border-radius: 100px;
+    transition: ease .6s;
+}
+
+.navigation ul li#active a {
+    color: white;
+}
+
+.navigation ul li#active{
+    color: white;
+    background-color:#316DC3;
+    padding: 7px 10px;
+    border-radius: 100px;
+}
+
+/* Image(s) cover ///////////////// */
+
+.cover_image img {
+    width: 100%;
+    margin: -20px auto;
+}
+
+.marquee_one {
+    background-color: #316DC3;
+    margin: 25px 80px 15px;
+    padding: 5px 0px;
+    border-radius:0px 8px;
+    font-size: 14px;
+}
+/* Introduction ///////////////// */
+
+.introduction-1 { 
+    color:#316dc3;
+}
+
+.introduction-2 { 
+    color:#427900;
+}
+
+.introduction-1 , .introduction-2 {
+    font-family: Merriweather-Regular, Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.intro-icon {
+    text-align: center;
+    margin: 30px auto;
+    max-width:200px;
+    position:relative;
+    }
+
+.intro-icon:before{
+    content: "";
+    width: 60px;
+    height:3px;
+    background: #427900;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    }
+    
+.intro-icon:after{
+    content: "";
+    width: 60px;
+    height:3px;
+    background: #427900;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    }
+
+.paragraph {
+    margin: 0px 250px;
+    text-align: justify;
+    color:#555555;   
+    font-size: 14px; 
+    line-height: 2em;  
+}
+
+.intro_bg {
+    background-color: #f7f8fa;
+    padding: 60px 0px;
+}
+
+/* Statics Blue ////////////////// */
+
+.statics_bg {
+    background-color: #2655e8;
+    color: white;
+    display: inline-flex;
+    width: 100%;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.statics_text {
+    font-family: Merriweather-Regular, Georgia, 'Times New Roman', Times, serif;
+    margin: 20px 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+ 
+.num {
+    font-family: Merriweather-Regular, Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+}
+
+.statics_text p {
+    font-family: Merriweather-bold, Georgia, 'Times New Roman', Times, serif;   
+}
+
+.statics_span {
+    font-family: Merriweather-Regular, Georgia, 'Times New Roman', Times, serif;
+    color: #00ff00;
+}
+
+.main_sec {
+    font-family: Merriweather-Regular, Georgia, 'Times New Roman', Times, serif;
+    height: 400px;
+    width: 1150px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.sec_1 {
+    display: inline-block;
+    background-color:#fff;
+    padding: 30px 125px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.350);
+}
+
+.main_sec .sec_1 h4 {
+    font-family: Merriweather-Regular, Georgia, 'Times New Roman', Times, serif;
+    color:#316dc3 ;
+}
+
+/* Mission and Upcomming Projects */
+
+.sizing_container_projects {
+    font-family: Merriweather-Regular, Georgia, 'Times New Roman', Times, serif;
+    width: 1150px;
+    margin: 0px auto;
+    
+}
+
+.upcomming_projects {
+    font-family: Merriweather-Regular, Georgia, 'Times New Roman', Times, serif;
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 1150px;
+    margin: 0px auto;
+    /* text-align: center; */
+}
+
+.upcomming_projects_h2 {
+    position: relative;
+    margin: 50px 0px 40px;
+    left: 40px;
+    color: #316dc3;
+}
+
+.upcomming_projects_h2>h2 {
+    font-family: Merriweather-Regular, Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.box {
+    display: inline-block;
+    background-color:#f7f8fa;
+    width: 300px;
+    height: 70px;
+    border: 1px solid #f0f0f0;
+    margin: 10px;
+    position: relative;
+    left: 30px;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.350);
+}
+
+.box > a {
+    padding: 0px 0px 0px 20px;
+    color:#316dc3;
+    position: relative;
+    top: 20px;
+}
+
+.box > p {
+    font-family: Merriweather-bold, Georgia, 'Times New Roman', Times, serif;
+    display: inline;
+    padding: 0px 0px 0px 20px;
+    color:#316dc3;
+    position: relative;
+    top: 12px;
+}
+
+.upcomming_events {
+    width: fit-content;
+    position: relative;
+    left: 800px;
+    bottom: 280px;
+    text-align: justify;
+    color:#555555;   
+    font-size: 14px; 
+    line-height: 1.8em;    
+     
+}
+
+.upcomming_events > h2 {
+    margin: 15px 0px 50px 0px;
+    font-family: Merriweather-Regular, Georgia, 'Times New Roman', Times, serif;    
+    color:#316dc3;
+   
+}
+
+.heading_line {
+    width: 50px;
+    margin: 10px 0px 0px 0px;
+    border: 1px solid green;
+}
+
+/* Image Gallery /////////////////////*/
+
+.image_galleries {
+    display: inline-flex;
+    margin: -1px;
+}
+
+.image_galleries>img:hover {
+    color: white;
+    background-color:#316DC3;
+    transition: ease .6s;
+}
+
+.image_galleries_main {
+    text-align:center ;
+}
+
+/* Footer////////////////////////*/
+
+.footer_bg {
+    background-color: #25272e;
+    /* width: 100%; */
+    height: 350px;
+    margin-top: 200px;
+}
+
+.footer_detail {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 1100px;
+    height: 220px;
+    margin: 0px 90px 0px;
+    padding: 70px 15px 40px;
+    font-size: 14px;
+}
+
+.footer_detail .address {
+    height: 220px;
+    color: #bbbbbb;
+    float: left;
+    line-height: 1.7rem;
+    padding: 20px 30px 0px 0px;
+}
+
+.contact_detail>li {
+    display: inline-block;
+}
+
+#inline {
+    margin-right:30px ;
+}
+
+.contact_detail_icon {
+    color: #427900;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.footer_detail .useful_link {
+    height: 220px;
+    color: #fff;
+    float: left;
+    line-height: 1.5rem;
+    font-size: 18px;
+    padding: 0px 250px 0px 50px;
+}
+
+.footer_detail .useful_link>h5 {
+    font-family: Merriweather-Regular, Georgia, 'Times New Roman', Times, serif;
+    float: left;
+}
+
+.footer_detail .footer_icons_round {
+    font-size: 18px;
+    color: #fff;
+    padding: 0px 100px 0px 0px;
+}
+
+.footer_icons_round>h5 {
+    font-family: Merriweather-Regular, Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.footer_icons {
+    width: 200px;
+}
+
+.footer_icons>a {
+    color: #fff;
+}
+
+.round_icon {
+    font-size: 12px;
+    background-color: #316DC3;
+    padding: 10px;
+    margin: 0px 3px;
+    border-radius: 100px;
+}
+
+.scroll_top{
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    position: sticky;
+    top: 200px;
+    bottom: 100px;
+    left: 1250px;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+.bottom_bar {
+    background-color: #316dd9;
+    color: #fff;
+    font-size: 12px;
+    padding: 15px 120px 15px;
+}
+
+@media screen and (max-width: 360px) {
+    .statics_bg {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;  
+    }
+   
+    
+  }
+
